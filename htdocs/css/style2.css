@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    background: url("/images/cover2.png") top center no-repeat !important;
+    flex-basis: 100%;
+      text-align: center !important;
+      padding: 0;
+      margin: 0;
+      
+}
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI';
+        font-size: 25px;
+ 
+    }
+   
+
+.btn {
+    margin: auto;
+    padding: 10px 35px;
+    background-color: #d4d8d7;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: box-shadow 0.5s;
+    outline: none;
+    text-shadow: #161a03;
+}
+.btn:hover {
+    
+    color:whitesmoke !important;
+    background-color: rgb(113, 12, 153);
+
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color:whitesmoke !important;
+}
+h1{
+    color: white;
+    text-shadow: #161a03 !important;
+    
+       
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    bottom: 200px;
+    top: 200px;
+    right: 520px;
+    font-size: 35px;
+    
+
+}
+
